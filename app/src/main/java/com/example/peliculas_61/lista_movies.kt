@@ -17,6 +17,7 @@ class lista_movies : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
+
     ): View? {
         val data = Datasource().movieList()
         binding = DataBindingUtil.inflate(inflater,
