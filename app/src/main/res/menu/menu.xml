@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/mail"
+        android:icon="@drawable/ic_baseline_mail_24"
+        android:title="mail"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/redirect"
+        android:icon="@drawable/ic_baseline_open_in_new_24"
+        android:title="redirect"
+        app:showAsAction="ifRoom" />
+</menu>
